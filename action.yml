@@ -1,41 +1,41 @@
-name: 'IPFS Deploy'
-description: 'Deploy code & content to IPFS pinning service'
-author: 'Quorum Control, GmbH'
+name: "IPFS Deploy"
+description: "Deploy code & content to IPFS pinning service"
+author: "Priom Chowdhury"
 inputs:
   deploy-dir:
-    description: 'The directory to deploy (can often be guessed)'
+    description: "The directory to deploy (can often be guessed)"
     required: false
   pinning-service:
-    description: 'The pinning service to use'
+    description: "The pinning service to use"
     required: true
-    default: 'pinata'
+    default: "pinata"
   pinata-api-key:
-    description: 'API key for Piñata pinning service'
+    description: "API key for Piñata pinning service"
     required: false
   pinata-secret-api-key:
-    description: 'Secret API key for Piñata pinning service'
+    description: "Secret API key for Piñata pinning service"
     required: false
   cloudflare-api-email:
-    description: 'Cloudflare API email for DNS updates'
+    description: "Cloudflare API email for DNS updates"
     required: false
   cloudflare-api-key:
-    description: 'Cloudflare API key for DNS updates'
+    description: "Cloudflare API key for DNS updates"
     required: false
   cloudflare-api-token:
-    description: 'Cloudflare API token for DNS updates'
+    description: "Cloudflare API token for DNS updates"
     required: false
   cloudflare-zone:
-    description: 'Cloudflare DNS zone to update on deployment'
+    description: "Cloudflare DNS zone to update on deployment"
     required: false
   cloudflare-record:
-    description: 'Cloudflare DNS record to update on deployment'
+    description: "Cloudflare DNS record to update on deployment"
     required: false
 outputs:
   ipfs-hash:
-    description: 'Hash of pinned IPFS deployment'
+    description: "Hash of pinned IPFS deployment"
 runs:
-  using: 'node12'
-  main: 'index.js'
+  using: "node12"
+  main: "index.js"
 branding:
-  icon: 'box'
-  color: 'blue'
+  icon: "box"
+  color: "blue"
