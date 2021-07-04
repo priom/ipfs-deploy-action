@@ -1,5 +1,5 @@
 {
-  "name": "ipfs-deploy-github-action",
+  "name": "ipfs-deploy-action",
   "version": "1.0.0",
   "description": "GitHub action to deploy code & content to IPFS pinning services",
   "main": "index.js",
