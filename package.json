@@ -1,5 +1,6 @@
 {
   "name": "ipfs-deploy-action",
+  "author": "Priom Chowdhury",
   "version": "1.0.0",
   "description": "GitHub action to deploy code & content to IPFS pinning services",
   "main": "index.js",
@@ -10,12 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/quorumcontrol/ipfs-deploy-github-action.git"
   },
-  "author": "Quorum Control, GmbH",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quorumcontrol/ipfs-deploy-github-action/issues"
+    "url": "https://github.com/priom/ipfs-deploy-action/issues"
   },
-  "homepage": "https://github.com/quorumcontrol/ipfs-deploy-github-action#readme",
+  "homepage": "https://github.com/priom/ipfs-deploy-action#readme",
   "dependencies": {
     "@actions/core": "^1.2.1",
     "ipfs-deploy": "^7.13.0"
